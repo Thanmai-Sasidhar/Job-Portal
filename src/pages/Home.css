@@ -1,0 +1,277 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f7f7f7;
+  font-family: "Poppins", sans-serif;
+}
+
+/* NAVBAR */
+.custom-navbar {
+  width: 95%;
+  margin: 20px auto;
+  background: white;
+  border-radius: 25px;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: 700;
+  color: black;
+}
+
+.nav-links {
+  display: flex;
+  gap: 35px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #555;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.nav-links a:hover {
+  color: #5d5fef;
+}
+
+.nav-right {
+  display: flex;
+  gap: 15px;
+}
+
+.upload-btn {
+  background: #5d5fef;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.profile-btn {
+  text-decoration: none;
+  border: 1px solid #ddd;
+  padding: 12px 25px;
+  border-radius: 15px;
+  color: black;
+}
+
+/* PAGE */
+.home-container {
+  width: 95%;
+  margin: auto;
+}
+
+/* HERO */
+.hero-section {
+  margin-top: 20px;
+  background: linear-gradient(to right, #dfe4ff, #f7d4f7);
+  border-radius: 30px;
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-image img {
+  width: 280px;
+  border-radius: 30px;
+}
+
+.hero-content {
+  flex: 1;
+  margin: 0 40px;
+}
+
+.hero-content h1 {
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.hero-content span {
+  color: #5d5fef;
+}
+
+.hero-content p {
+  color: #555;
+  margin-top: 15px;
+  font-size: 1.2rem;
+}
+
+.search-bar {
+  margin-top: 25px;
+  display: flex;
+  background: white;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+}
+
+.search-bar input {
+  flex: 1;
+  border: none;
+  padding: 18px;
+  outline: none;
+  font-size: 1rem;
+}
+
+.search-bar button {
+  background: #5d5fef;
+  color: white;
+  border: none;
+  padding: 18px 30px;
+  cursor: pointer;
+}
+
+.hero-buttons {
+  margin-top: 25px;
+  display: flex;
+  gap: 15px;
+}
+
+.primary-btn {
+  background: #5d5fef;
+  color: white;
+  border: none;
+  padding: 14px 30px;
+  border-radius: 15px;
+}
+
+.secondary-btn {
+  background: white;
+  border: 1px solid #5d5fef;
+  color: #5d5fef;
+  padding: 14px 30px;
+  border-radius: 15px;
+}
+
+.hero-stats {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.hero-stats h2 {
+  font-size: 3rem;
+}
+
+.hero-stats p {
+  color: gray;
+}
+
+/* JOBS */
+.jobs-section {
+  background: white;
+  margin-top: 30px;
+  padding: 35px;
+  border-radius: 30px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.06);
+}
+
+.jobs-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.jobs-header h2 {
+  font-size: 3rem;
+}
+
+.jobs-header button {
+  border: 1px solid #ddd;
+  background: white;
+  padding: 12px 25px;
+  border-radius: 15px;
+}
+
+/* JOB CARD */
+.job-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+  border-bottom: 1px solid #eee;
+}
+
+.job-left {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.company-logo {
+  width: 70px;
+  height: 70px;
+  background: #f3f3f3;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+}
+
+.job-right button {
+  border: 1px solid #5d5fef;
+  color: #5d5fef;
+  background: white;
+  padding: 12px 25px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.page-wrapper {
+  width: 95%;
+  margin: 30px auto;
+  background: white;
+  border-radius: 30px;
+  padding: 50px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+}
+
+.page-title {
+  font-size: 3rem;
+  margin-bottom: 30px;
+}
+
+.form-box {
+  max-width: 500px;
+}
+
+.form-box input,
+.form-box textarea {
+  width: 100%;
+  padding: 18px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 15px;
+  outline: none;
+  font-size: 1rem;
+}
+
+.form-box button {
+  width: 100%;
+  padding: 15px;
+  background: #5d5fef;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  font-size: 1rem;
+}
+
+.detail-card {
+  padding: 30px;
+  border-radius: 25px;
+  background: #fafafa;
+}
